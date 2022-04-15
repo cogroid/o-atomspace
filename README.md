@@ -565,6 +565,15 @@ Essentially all Linux distributions will provide these packages.
 * https://www.cmake.org/ | `apt install cmake3`
 ```
 sudo apt -y install libboost-filesystem-dev
+
+sudo apt-get install build-essential
+wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+tar xf cmake-3.2.2.tar.gz
+cd cmake-3.2.2
+./configure
+make
+
+sudo make install
 ```
 * https://askubuntu.com/questions/610291/how-to-install-cmake-3-2-on-ubuntu
 
