@@ -566,7 +566,7 @@ Essentially all Linux distributions will provide these packages.
 
 ###### cogutil
 * Common OpenCog C++ utilities.
-* https://github.com/opencog/cogutil
+* https://github.com/cogroid/o-cogutil
 * It uses exactly the same build procedure as this package. Be sure
   to `sudo make install` at the end.
 
