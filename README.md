@@ -10,7 +10,7 @@ sequences of rules to perform reasoning. It is a kind of in-RAM
 generalized hypergraph (metagraph) database. Metagraphs offer more
 efficient, more flexible and more powerful ways of representing
 graphs: [a metagraph store is literally just-plain better than a
-graph store.](https://github.com/opencog/atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
+graph store.](https://github.com/cogroid/o-atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
 On top of this, the Atomspace provides a large variety of advanced
 features not available anywhere else.
 
@@ -41,7 +41,7 @@ But, first: five things everyone else does:
 A key difference: the AtomSpace is a metagraph store, not a graph store.
 Metagraphs can efficiently represent graphs, but not the other way around.
 This is carefully explained
-[here,](https://github.com/opencog/atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
+[here,](https://github.com/cogroid/o-atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
 which also gives a precise definition of what a metagraph is, and how it
 is related to a graph.  As a side-effect, metagraphs open up many
 possibilities not available to ordinary graph databases. These are
