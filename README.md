@@ -10,7 +10,7 @@ sequences of rules to perform reasoning. It is a kind of in-RAM
 generalized hypergraph (metagraph) database. Metagraphs offer more
 efficient, more flexible and more powerful ways of representing
 graphs: [a metagraph store is literally just-plain better than a
-graph store.](https://github.com/opencog/atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
+graph store.](https://github.com/cogroid/o-atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
 On top of this, the Atomspace provides a large variety of advanced
 features not available anywhere else.
 
@@ -41,7 +41,7 @@ But, first: five things everyone else does:
 A key difference: the AtomSpace is a metagraph store, not a graph store.
 Metagraphs can efficiently represent graphs, but not the other way around.
 This is carefully explained
-[here,](https://github.com/opencog/atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
+[here,](https://github.com/cogroid/o-atomspace/blob/master/opencog/sheaf/docs/ram-cpu.pdf)
 which also gives a precise definition of what a metagraph is, and how it
 is related to a graph.  As a side-effect, metagraphs open up many
 possibilities not available to ordinary graph databases. These are
@@ -563,10 +563,27 @@ Essentially all Linux distributions will provide these packages.
 ###### cmake
 * Build management tool; v3.0.2 or higher recommended.
 * https://www.cmake.org/ | `apt install cmake3`
+```
+sudo apt -y install libboost-filesystem-dev
+sudo apt -y install libboost-dev
+sudo apt -y install libboost-program-options-dev
+sudo apt -y install libboost-system-dev
+sudo apt -y install libboost-thread-dev
+
+sudo apt-get install build-essential
+wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz
+tar xf cmake-3.2.2.tar.gz
+cd cmake-3.2.2
+./configure
+make
+
+sudo make install
+```
+* https://askubuntu.com/questions/610291/how-to-install-cmake-3-2-on-ubuntu
 
 ###### cogutil
 * Common OpenCog C++ utilities.
-* https://github.com/opencog/cogutil
+* https://github.com/cogroid/o-cogutil
 * It uses exactly the same build procedure as this package. Be sure
   to `sudo make install` at the end.
 
